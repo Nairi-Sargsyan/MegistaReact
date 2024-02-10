@@ -1,0 +1,128 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+    h1{
+        font-family: 'Chelsea Market', sans-serif;
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+    }
+
+    h2{
+        font-size: 26px;
+        letter-spacing: 2px;
+        color: #0D0D0D;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    p, a{
+        font-size: 20px;
+        color: #fff;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .body__border{
+        border-bottom: 2px solid #DCDBDB;
+        padding-bottom: 40px;
+    }
+}
+
+.header__cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    background: url('../../../public/images/img_cover.png') no-repeat center;
+    background-size: cover;
+    height: 710px;
+
+    .title{
+        font-family: 'Chelsea Market', sans-serif;
+        color: #fff;
+        font-size: 40px;
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+    }
+
+    .mg-discord-btn{
+        width: 65px;
+        height: 65px;
+        transition: fill 0.3s;
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+        &:hover{
+            path{
+                fill: #5962E6;
+            }
+        }
+        &:active{
+            path{
+                fill: #969696;
+            }
+        }
+    }
+
+    .mg-facebook-btn{
+        width: 44px;
+        height: 44px;
+        transition: fill 0.3s;
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+        &:hover{
+            path{
+                fill: #0865FF;
+            }
+        }
+        &:active{
+            path{
+                fill: #969696;
+            }
+        }
+    }
+
+    .mg-youtube-btn{
+        width: 44px;
+        height: 44px;
+        transition: fill 0.3s;
+            
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+
+        &:hover{
+            path{
+                fill: #FF0000;
+            }
+        }
+
+        &:active{
+            path{
+                fill: #969696;
+            }
+        }
+    }
+
+}
+
+.btn__play{
+    background-color: #FF7A00;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px 20px;
+    transition: all .3s ease;
+    border: 0;
+    &:hover{
+        color: #fff;
+        background-color: #FF640D;
+    }
+    &:active{
+        background-color: #FD9330;
+    }
+}

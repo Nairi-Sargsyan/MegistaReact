@@ -1,0 +1,80 @@
+// Contact Phone
+
+.contact__phone{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.contact__phone-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.contact__phone-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.contact__phone-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.contact__phone-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Contact Address
+
+.contact__address{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.contact__address-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.contact__address-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.contact__address-exit-active {
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.contact__address-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+// Contact Email
+
+.contact__email{
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.contact__email-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.contact__email-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.contact__email-exit-active {
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.contact__email-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}

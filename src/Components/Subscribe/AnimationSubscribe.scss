@@ -1,0 +1,107 @@
+// Animation Image Left
+
+.subscribe__image_left{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.subscribe__image_left-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.subscribe__image_left-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.subscribe__image_left-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.subscribe__image_left-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Animation Image Right
+
+.subscribe__image_right{
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.subscribe__image_right-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.subscribe__image_right-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.subscribe__image_right-exit-active {
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.subscribe__image_right-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Animation Title Text
+
+.animation__text{
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.animation__text-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.animation__text-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.animation__text-exit-active {
+    opacity: 0;
+    transform: translateY(-100px);
+}
+
+.animation__text-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Animation Input Group
+
+.input-group{
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+.input-group-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.input-group-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.input-group-exit-active {
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+.input-group-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}

@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+  transition: all .3s ease;
+}
+
+main{
+  background-color: #F5F5F5;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+main, h2, .bananas__text, .tilte__text, .statistics__number, .company__about_text, .content__title, .contact__title, .content__text, .content__subtitle, .item__dropdown_text, .contact, .logo__title, .company__emblem, .get-in-touch__content, .get-in-touch__input, .input__text, .company__about, .subscribe__bg, .subscribe__content, .game__bananas, .statistics__content, .about__content, .faq__accardion_items, footer{
+  transition: all .3s ease;
+}
+
+.App.dark{
+  main{
+    background-color: #141414;
+  }
+  h2{
+      color: #fff;
+  }
+
+  .bananas__text, .tilte__text, .statistics__number, .company__about_text, .content__title, .contact__title, .content__text, .content__subtitle, .item__dropdown_text{
+      color: #fff;
+  }
+
+  .contact{
+    a{
+      color: #fff;
+
+      &:hover{
+        color: #FFA34D;
+      }
+    }
+
+    path{
+      fill: #fff;
+    }
+  }
+
+  .company__emblem, .get-in-touch__content, .get-in-touch__input, .input__text, .company__about, .subscribe__bg, .subscribe__content, .game__bananas, .statistics__content, .about__content, .faq__accardion_items{
+      background-color: #000;
+
+      .logo__title{
+          color: #fff;    
+      }
+  }
+
+  footer{
+    background-color: #1F1F1F;
+  }
+    
+}

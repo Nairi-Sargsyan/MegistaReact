@@ -1,0 +1,20 @@
+.statistics__content{
+    background-color: #fff;
+    border-radius: 13px;
+
+    .statistics__number{
+        font-weight: 400;
+        font-size: 40px;
+        color: #000;
+        margin: 0 !important;
+    }
+    
+    .statistics__text{
+        font-size: 16px;
+        color: #FFA34D;
+    }
+
+    .col_one, .col_two, .col_three, .col_fout{
+        transition: all .3s ease;
+    }
+}

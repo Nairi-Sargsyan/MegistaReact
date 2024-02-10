@@ -1,0 +1,52 @@
+// Animation \\
+
+.company__emblem-enter{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.company__emblem-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.company__emblem-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.company__emblem-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.company__emblem-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+.animation-block-enter{
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.animation-block-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.animation-block-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.animation-block-exit-active {
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.animation-block-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}

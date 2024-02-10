@@ -1,0 +1,26 @@
+// Content
+
+.get-in-touch__content{
+    opacity: 0;
+    transform: scale(90%);
+}
+
+.get-in-touch__content-enter-active {
+    opacity: 1;
+    transform: scale(100%);
+}
+
+.get-in-touch__content-exit {
+    opacity: 1;
+    transform: scale(100%);
+}
+
+.get-in-touch__content-exit-active {
+    opacity: 0;
+    transform: scale(90%);
+}
+
+.get-in-touch__content-enter-done{
+    opacity: 1;
+    transform: scale(100%);
+}

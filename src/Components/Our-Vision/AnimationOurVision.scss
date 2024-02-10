@@ -1,0 +1,80 @@
+// Vision Card One
+
+.vision__card_one{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_one-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_one-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_one-exit-active {
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_one-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+// Vision Card Two
+
+.vision__card_two{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_two-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_two-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_two-exit-active {
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_two-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+// Vision Card Three
+
+.vision__card_three{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_three-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_three-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.vision__card_three-exit-active {
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.vision__card_three-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}

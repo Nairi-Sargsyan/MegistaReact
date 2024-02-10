@@ -1,0 +1,57 @@
+.subscribe__bg{
+    background-color: #fff;
+    border-radius: 33px;
+
+    .subscribe__image_left{
+        position: relative;
+        transition: all .3s ease;
+        .subscribe__icon_01{
+            position: absolute;
+            top: -30px;
+            right: 130px;
+        }
+    }
+
+    .subscribe__image_right{
+        position: relative;
+        transition: all .3s ease;
+        .subscribe__icon_02{
+            position: absolute;
+            top: -5px;
+            left: 110px;
+        }
+    }
+
+    .animation__text, .input-group{
+        transition: all .3s ease;
+    }
+
+    .subscribe__content{
+        width: 75%;
+        border: 1px #FFA34D solid !important;
+        border-radius: 50px !important;
+        padding: 0 15px;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+    .mg-send-btn{
+        width: 85px;
+        background-color: #FF7A00;
+        border-radius: 8px !important;
+
+        &:hover{
+            background-color: #FF640D;
+        }
+
+        &:active{
+            background-color: #FD9330;
+        }
+    }
+}
+
+
+
+

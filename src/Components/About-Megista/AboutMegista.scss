@@ -1,0 +1,21 @@
+.about__image_01, .megista__about_title, .about__content_top{
+    transition: all .3s ease;
+}
+
+.about__content_bottom, .about__image_02{
+    transition: all .6s ease;
+}
+
+.about__content{
+    background-color: #fff;
+    border-radius: 33px;
+    text-align: start;
+
+    .company__about-title{
+        color: #FFB066;
+    }
+    
+    p{
+        color: #000;
+    }
+}

@@ -1,0 +1,139 @@
+.footer{
+    background-color: #BFBEBE;
+
+    .footer__title-text{
+        color: #838383;
+    }
+
+    .content__title{
+        color: #0D0D0D;
+    }
+
+    .content__link{
+        text-align: start;
+        color: #838383;
+        transition: all .3s ease;
+        &:hover{
+            color: #fff;
+        }
+    }
+
+    .content__title, .contact__title{
+        text-align: start;
+        color: #0D0D0D;
+    }
+
+    .contact__subtitle{
+        color: #FF881A;
+    }
+
+    .contact__text{
+        text-align: start;
+        color: #838383;
+    }
+
+    .mg-footer-twitter-btn{
+        width: 34px;
+        height: 34px;
+        transition: fill 0.3s;
+                
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+
+        &:hover{
+            path{
+                fill: #1D9BF0;
+            }
+        }
+
+        &:active{
+            path{
+                fill: #838383;
+            }
+        }
+    }
+
+    .mg-footer-youtube-btn{
+        width: 34px;
+        height: 34px;
+        transition: fill 0.3s;
+            
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+
+        &:hover{
+            path{
+                fill: #FF0000;
+            }
+        }
+
+        &:active{
+            path{
+                fill: #838383;
+            }
+        }
+    }
+
+    .mg-footer-facebook-btn{
+        width: 34px;
+        height: 34px;
+        transition: fill 0.3s;
+        
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+
+        &:hover{
+            path{
+                fill: #0865FF;
+            }
+        }
+
+        &:active{
+            path{
+                fill: #838383;
+            }
+        }
+    }
+
+    .mg-footer-discord-btn{
+        width: 34px;
+        height: 34px;
+        transition: fill 0.3s;
+
+        path{
+            fill: #fff;
+            transition: fill 0.3s;
+        }
+
+        &:hover{
+            path{
+                fill: #5962E6;
+            }
+        }
+
+        &:active{
+            path{
+                fill: #838383;
+            }
+        }
+    }
+
+    .privecy{
+        background-color: #0D0D0D;
+
+        .footer__text, .footer__text_style{
+            font-family: 'Ubuntu', sans-serif;
+            letter-spacing: 3px;
+        }
+
+        .footer__text_style{
+            color: #FF881A;
+        }
+    }
+}

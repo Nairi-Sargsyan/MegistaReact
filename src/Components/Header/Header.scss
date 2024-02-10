@@ -1,0 +1,113 @@
+.header__inner{
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: #000;
+
+    .nav-link{
+        color: #949494;    
+        font-size: 16px;
+        letter-spacing: 3px;
+        transition: all .3s ease;
+        &:hover{
+            color: #fff;
+        }
+    }
+
+    .active{
+        color: #FF7A00;
+    }
+
+    .navbar__burger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40px;
+        height: 40px;
+        border-radius: 7px;
+        background-color: #FF7A00;
+
+        .burger__item{
+            display: block;
+            width: 30px;
+            height: 3px;
+            border-radius: 50px;
+            background-color: #000;
+            transition: all .3s ease;
+        }
+
+        .burger__item:not(:last-child){
+            margin-bottom: 5px;
+        }
+    }
+
+    .mode__control{
+        position: relative;
+        width: 35px;
+        height: 16px;
+        background-color: #fff;
+        border-radius: 15px;
+        transition: all .3s ease;
+        border: #FF7A00 1px solid;
+
+        .btn__lable{
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #FF7A00;
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+            top: 1px;
+            left: 1px;
+            transition: all .3s ease;
+        }
+    }
+
+
+    .dark__mode{
+        .mode__control{
+            background-color: #000;
+
+            .btn__lable{
+                left: 20px;
+            }
+        }
+    }
+}
+
+
+.navbar.burger__active{
+    position: relative;
+
+    .navbar__burger{
+        .burger__item:nth-child(1){
+            transform: translateY(12px) rotateZ(45deg);
+        }
+
+        .burger__item:nth-child(2){
+            width: 0;
+        }
+
+        .burger__item:nth-child(3){
+            width: 0;
+        }
+
+        .burger__item:nth-child(4){
+            transform: translateY(-12px) rotateZ(-45deg);
+        }
+    }
+
+    .header__navbar-items{
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        background-color: #000;
+        top: 65px;
+        left: 0;
+
+        .navbar-nav{
+            flex-direction: column !important;
+        }
+    }
+}

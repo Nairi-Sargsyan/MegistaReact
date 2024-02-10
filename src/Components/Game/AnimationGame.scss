@@ -1,0 +1,54 @@
+// Game Image
+
+.game__title_img{
+    opacity: 0;
+    transform: translateY(-500px);
+}
+
+.game__title_img-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.game__title_img-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.game__title_img-exit-active {
+    opacity: 0;
+    transform: translateY(-500px);
+}
+
+.game__title_img-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Game Bananas
+
+.game__bananas{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.game__bananas-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.game__bananas-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.game__bananas-exit-active {
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+.game__bananas-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}
+

@@ -1,0 +1,87 @@
+.get-in-touch{
+
+    .get-in-touch__content{
+        background: #fff;
+        border-radius: 13px;
+        transition: all .3s ease;
+    
+        .get-in-touch__tilte{
+            position: relative;
+
+            .content__image_01{
+                position: absolute;
+                top: -30px;
+                left: -30px;
+            }
+        }
+
+        p{
+            letter-spacing: 2px;
+        }
+    
+        .get-in-touch__input{
+            border: #FF9633 1px solid;
+            border-radius: 13px;
+            height: 53px;
+            padding: 0 21px;
+    
+            &:focus{
+                border: #FF9633 1px solid;
+                outline: #FF9633 1px solid;
+            }
+        }
+    
+        .content__text{
+            position: relative;
+            
+            .content__image_02{
+                position: absolute;
+                top: -317px;
+                right: -100px;
+            }
+        }
+
+        .input__btn{
+            width: 100%;
+            border: #FF9633 1px solid;
+            border-radius: 13px;
+            padding: 15px 20px;
+            min-height: 182px;
+        }
+    
+        .input__text{
+            position: relative;
+            min-height: 280px;
+            border: #FF9633 1px solid !important;
+            border-radius: 13px;
+            padding: 15px 20px;
+            width: 100%;
+    
+            &:focus{
+                border: #FF9633 1px solid !important;
+                outline: #FF9633 1px solid !important;
+            }
+        }
+
+        .tilte__text{
+            color: #000;
+        }
+
+        .mg-send-btn{
+            position: absolute;
+            padding: 10px 35px;
+            background-color: #FF9633;
+            bottom: 20px;
+            right: 10px;
+
+            &:hover{
+                background-color: #FF7A00;
+            }
+
+            &:active{
+                background-color: #FD9330;
+            }
+        }
+    }
+
+}

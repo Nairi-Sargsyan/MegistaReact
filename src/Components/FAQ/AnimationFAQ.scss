@@ -1,0 +1,26 @@
+// Accardion
+
+.faq__accardion{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.faq__accardion-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.faq__accardion-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.faq__accardion-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.faq__accardion-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}

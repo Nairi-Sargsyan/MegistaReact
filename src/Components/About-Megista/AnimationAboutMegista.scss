@@ -1,0 +1,135 @@
+// Content Bottom
+
+.megista__about_title{
+    opacity: 0;
+    transform: translateY(-200px);
+}
+
+.megista__about_title-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.megista__about_title-exit {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.megista__about_title-exit-active {
+    opacity: 0;
+    transform: translateY(-200px);
+}
+
+.megista__about_title-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+// Image Top
+
+.about__image_01{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.about__image_01-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__image_01-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__image_01-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.about__image_01-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Image Bottom
+
+.about__image_02{
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.about__image_02-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__image_02-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__image_02-exit-active {
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.about__image_02-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Content Top
+
+.about__content_top{
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.about__content_top-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__content_top-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__content_top-exit-active {
+    opacity: 0;
+    transform: translateX(-500px);
+}
+
+.about__content_top-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+// Content Bottom
+
+.about__content_bottom{
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.about__content_bottom-enter-active {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__content_bottom-exit {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.about__content_bottom-exit-active {
+    opacity: 0;
+    transform: translateX(500px);
+}
+
+.about__content_bottom-enter-done{
+    opacity: 1;
+    transform: translateX(0px);
+}
+

@@ -1,0 +1,27 @@
+.contact__phone_body, .contact__address_body, .contact__email_body{
+    a{
+        text-decoration: none;
+        color: #0D0D0D;
+        transition: all .3s ease;
+
+        &:hover{
+            color: #FF9633;
+        }
+    }
+}
+
+.contact__phone, .contact__address, .contact__email{
+    transition: all .3s ease;
+}
+
+.contact__address{
+    border-left: 2px solid #FF9633;
+    border-right: 2px solid #FF9633;
+}
+
+@media (max-width: 768px) {
+    .contact__address{
+        border-left: 0;
+        border-right: 0;
+    }
+}
